@@ -1,0 +1,29 @@
+.grid-exercicio {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-columns: 150px 1fr 200px;
+    grid-template-rows: 60px 1fr 40px;
+    gap: 15px;
+    height: 100vh;
+}
+
+header { 
+    grid-area: header; background: #b3cde0; 
+    align-items: center;
+    justify-items: center;
+}
+nav { grid-area: nav; background: #6497b1; }
+
+.navbar{
+    grid-template-areas: "home"
+    "about"
+    "contact";
+    grid-template-rows: auto;
+}
+
+main { grid-area: main; background: #005b96; color: #fff; }
+aside { grid-area: aside; background: #03396c; color: #fff; }
+footer { grid-area: footer; background: #011f4b; color: #fff; }
