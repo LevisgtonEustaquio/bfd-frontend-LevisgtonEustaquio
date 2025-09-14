@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")(); //tive que usar esse comando para requisitar ao usuário que insira um valor para a tabuada, no terminal
+const prompt = require("prompt-sync")(); //tive que usar esse comando para requisitar ao usuário que insira dados, no terminal
 
 console.log("Função que verifica numeros positivos, negativos e zero!\n") //exibe na tela o enunciado!
 
